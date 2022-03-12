@@ -11,23 +11,37 @@
     <header class="header">
         <h1>Eréndira Mendoza</h1>
         <p>Translator</p>
-        <nav class="navBar">
+    </header>
+    
+    <nav class="navBar">
             <ul>
                 <li> <a href="#aboutMe">About me</a></li>
                 <li> <a href="#work">Work</a></li>
                 <li> <a href="#contInfo">Contact me</a></li>
             </ul>
-        </nav>
-    </header>
-
-    <div> </div>
+    </nav>
+        
     <main>
-        <section id= "aboutMe" class="aboutMe">
-            <div class="myPhoto">
+
+        <aside>
+            <div>
+                <h2>About me</h2>
+                <div class="myPhoto">
                 <img class="photoEren" src="./assets/images/WhatsApp Image 2022-02-23 at 2.40.18 PM.jpeg">
             </div>
+            </div>
+            <div>
+                <h2 id="work" class="work">Work samples</h2>
+            <p>
+                Here are some of the few practices I've completed so far. However, this section will continue growing.
+            </p>
+            </div>
+        </aside>
+
+        <section id= "aboutMe" class="aboutMe">
+            
             <div class="myDetails">
-                <h2>About me</h2>
+                
                 <p>
                     Hi there! My name is Eréndira, but you can call me Eren (It's shorter and less hard to pronounce). I'm a 25 year-old translator
                     from Mexico City. Wait...A translator?!
@@ -48,13 +62,7 @@
             
         </section>
 
-        <section id="work" class="work">
-            <h2>Work samples</h2>
-            <p>
-                Here are some of the few practices I've completed so far. However, this section will continue growing.
-            </p>
-        </section>
-
+        <section>
         <div class="workSample">
             <section class="workcard">
                 <header>My first repo</header>
@@ -63,24 +71,35 @@
                 <p>You can check my work <a href="https://github.com/17-0602/prework-about-me">here!</a></p>
             </section>
 
-            <section class="workcard">
-                <header>My first live page</header>
+            <div>
+                <table class="workTab">
+                    <tr>
+                        <th>
+                            <section class="workcard">
+                            <header>My first live page</header>
                 <a href="https://github.com/17-0602/Horiseon-Webpage-Practice"><img id="pic" class="sampletwo" 
                 src="./assets/images/1st homework.png" alt="Web page picture"></a>
                 <p>You can check my work <a href="https://github.com/17-0602/Horiseon-Webpage-Practice">here!</a></p>
             </section>
-            
-            <section class="workcard">
+                        </th>
+                        <th>
+                            <section class="workcard">
                 <header>Work in progress</header>
                 <a href="https://github.com/17-0602?tab=repositories"><img id="pic" class="samplethree" 
                     src="./assets/images/2GU.gif" alt="Cat with laptop"></a>
                 <p>Stay tuned and check my new projects <a href="https://github.com/17-0602?tab=repositories">here!</a></p>
-            </section>
-        </div>
-           
+            </section> 
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div> 
         </section>
 
-        <section id="contInfo" class="contInfo">
+        
+    </main>
+
+    <section id="contInfo" class="contInfo">
             <h2>Contact information</h2>
             <table>
                 <tr>
@@ -101,7 +120,6 @@
                 </a>
             </div>
         </section>
-    </main>
 
     <footer>
         <p>
